@@ -1,10 +1,11 @@
-import LoginForm from "./Component/LoginForm";
+import ToDolist from "./Todo-component/Todo";
+
 
 
 function App() {
   return (
-    <div className="App">
-     <LoginForm/>
+    <div >
+     <ToDolist/>
     </div>
   );
 }
